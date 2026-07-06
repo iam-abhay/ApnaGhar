@@ -1,11 +1,5 @@
 ﻿# ApnaGhar
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deploy-blue?logo=github&logoColor=white)](https://pages.github.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
 ApnaGhar is a responsive front-end for a real estate marketplace built with plain HTML, CSS, and modern JavaScript (ES6+). It is designed as a production-ready static site for GitHub Pages and a professional portfolio demo.
 
 **Purpose:** showcase responsive UI, accessibility best practices, SEO/social metadata, and a lightweight codebase suitable for recruiters and hiring managers.
@@ -57,23 +51,7 @@ ApnaGhar/
     └── images/
 ```
 
-## Screenshots (placeholders)
-
-Place future screenshots in a `screenshots/` folder. Examples:
-
-```text
-screenshots/
-  ├── homepage-desktop.png
-  ├── homepage-mobile.png
-  └── property-listings.png
-```
-
-Markdown preview examples (replace paths when screenshots are available):
-
-```markdown
-![Homepage - Desktop](screenshots/homepage-desktop.png)
-![Homepage - Mobile](screenshots/homepage-mobile.png)
-```
+<!-- Screenshots removed as requested -->
 
 ## Local Setup
 
@@ -131,7 +109,7 @@ ApnaGhar demonstrates modern front-end skills: responsive layout, accessibility,
 
 - Name: Abhay Kharat
 - GitHub: https://github.com/iam-abhay
-- LinkedIn: (add your LinkedIn URL)
+
 
 ## License
 
