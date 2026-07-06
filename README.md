@@ -8,7 +8,7 @@ ApnaGhar is a responsive real estate marketplace front end built with pure HTML,
 
 Replace this placeholder with your published deployment URL.
 
-- GitHub Pages: https://abhaykharat-bit.github.io/ApnaGhar/
+- GitHub Pages: https://iam-abhay.github.io/ApnaGhar/
 - Netlify: Replace with your Netlify deployment URL
 - Vercel: Replace with your Vercel deployment URL
 
