@@ -1,84 +1,107 @@
-Perfect 👌
-Mi tumhala **professional GitHub README.md content** deto — clean, structured, recruiter-friendly.
+# ApnaGhar
 
-Tumhi he directly `README.md` madhye copy-paste karu shakta.
+![ApnaGhar Project Banner](assets/images/social-preview.png)
 
----
+ApnaGhar is a responsive real estate marketplace front end built with pure HTML, CSS, and vanilla JavaScript. It is polished for GitHub Portfolio presentation, GitHub Pages deployment, recruiter review, and a production-quality Lighthouse pass while preserving the original UI and behavior.
 
-# 🏡 ApnaGhar – Real Estate Marketplace Platform
+## Live Demo
 
-## 📌 Overview
+Replace this placeholder with your published deployment URL.
 
-ApnaGhar is a responsive real estate marketplace web application designed for buying, renting, and selling residential properties. The platform focuses on modern UI/UX, interactive property exploration, and clean frontend architecture tailored for the Pune real estate market.
+- GitHub Pages: https://abhaykharat-bit.github.io/ApnaGhar/
+- Netlify: Replace with your Netlify deployment URL
+- Vercel: Replace with your Vercel deployment URL
 
-It demonstrates strong frontend development skills, responsive design principles, and real-world business logic implementation.
+## Screenshots
 
----
+Add exported screenshots here when the final deployment is available.
 
-## 🚀 Features
-
-* 🔎 Interactive property search and filtering
-* 🏘️ Dynamic property listing cards with detailed specifications
-* 📱 Fully responsive mobile-first design
-* 🎨 Modern UI with smooth animations and transitions
-* 🧭 Responsive navigation with hamburger menu
-* 🖼️ Property image galleries
-* ❤️ User engagement features (favorites, comparison)
-* 📋 Agent profile integration
-* 📩 Contact forms and social media links
-* ♿ Accessibility-focused semantic HTML structure
-
----
-
-## 🛠️ Tech Stack
-
-* **HTML5** – Semantic structure & accessibility
-* **CSS3** – Custom properties, Flexbox, animations, responsive design
-* **JavaScript (Vanilla JS)** – DOM manipulation, interactivity, dynamic filtering
-* **Ion Icons** – Modern icon implementation
-* **Google Fonts** – Optimized typography
-
----
-
-## 💡 Development Practices
-
-* Mobile-first responsive design
-* Cross-browser compatibility
-* Clean and modular code structure
-* Performance optimization
-* UI/UX best practices
-* Organized project structure
-
----
-
-## 📂 Project Structure
-
+```text
+screenshots/
+├── homepage-desktop.png
+├── homepage-mobile.png
+└── property-listings.png
 ```
+
+## Features
+
+- Responsive one-page real estate landing experience
+- Accessible skip link, visible focus states, and keyboard-friendly navigation
+- SEO metadata, Open Graph tags, Twitter Card tags, robots.txt, sitemap.xml, and JSON-LD structured data
+- Lazy-loaded imagery with hero and logo preloads for better perceived performance
+- Vanilla JavaScript navigation with reveal animations and loader handling
+- GitHub Pages-ready relative asset paths
+- Custom 404 page for static hosting
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Ionicons
+- Google Fonts
+
+## Folder Structure
+
+```text
 ApnaGhar/
-│
 ├── index.html
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-└── README.md
+├── 404.html
+├── README.md
+├── LICENSE
+├── .gitignore
+├── robots.txt
+├── sitemap.xml
+├── deal.png
+└── assets/
+    ├── css/
+    │   └── style.css
+    ├── js/
+    │   └── script.js
+    └── images/
+        ├── about-banner-1.png
+        ├── about-banner-2.jpg
+        ├── blog-1.png
+        ├── blog-2.jpg
+        ├── blog-3.jpg
+        ├── find-dream-home.jpg
+        ├── service-1.png
+        ├── service-2.png
+        ├── service-3.png
+        ├── 1stprp.jpg
+        ├── 2ndprop.jpg
+        ├── 4th.jpg
+        ├── a'.png
+        ├── small_Modern_Real_Estate_Agency_Logo_Template-removebg-preview.png
+        ├── small_Modern_Real_Estate_Agency_Logo_Template-removebg-preview - Copy.png
+        └── social-preview.png
 ```
 
----
+## Installation
 
-## 🎯 Business Scope
+1. Clone the repository.
+2. Open the project folder in VS Code or your preferred editor.
+3. Launch `index.html` with a local server or open it directly in a browser.
+4. For production deployment, publish the repository root as a static site.
 
-* Supports buy, rent, and sell property lifecycle
-* Showcases multiple property types (2–5 BHK)
-* Includes property details such as pricing, square footage, and amenities
-* Designed to simulate real-world real estate platform behavior
+## Future Improvements
 
+- Connect the listing cards to real property detail pages
+- Add a functional contact form with validation and submission handling
+- Replace placeholder outbound links with live social and business profiles
+- Add property filters and search for better discovery
+- Generate final deployment-specific canonical, sitemap, and social preview URLs
 
-## 📈 Future Enhancements
+## Author
 
-* Backend integration with database
-* User authentication system
-* Admin dashboard for property management
-* Payment gateway integration
-* Advanced search filters
+ApnaGhar
 
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Acknowledgements
+
+- Ionicons for the icon set
+- Google Fonts for typography
+- Browser static hosting platforms such as GitHub Pages, Netlify, and Vercel

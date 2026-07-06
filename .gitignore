@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings and caches
+.vscode/*.log
+.idea/
+*.swp
+*.swo
+
+# Local environment files
+.env
+.env.*
+
+# Build and deployment artifacts
+node_modules/
+dist/
+build/
+coverage/
+.netlify/
+.vercel/

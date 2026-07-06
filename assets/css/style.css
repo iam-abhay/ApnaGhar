@@ -53,6 +53,7 @@
   --transition: 0.25s ease;
   --transition-slow: 0.5s ease;
   --transition-fast: 0.15s ease;
+  --focus-ring: 0 0 0 3px hsla(24, 94%, 50%, 0.25);
 
   /**
    * spacing
@@ -111,6 +112,14 @@ button {
   cursor: pointer;
 }
 
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: 6px;
+}
+
 address { font-style: normal; }
 
 ion-icon { pointer-events: none; }
@@ -118,6 +127,7 @@ ion-icon { pointer-events: none; }
 html {
   font-family: var(--ff-nunito-sans);
   scroll-behavior: smooth;
+  scroll-padding-top: 140px;
 }
 
 body {
@@ -125,6 +135,29 @@ body {
   overflow-x: hidden;
   padding-top: 120px;
   color: var(--black);
+  line-height: 1.6;
+}
+
+section[id], footer[id] {
+  scroll-margin-top: 140px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -48px;
+  left: 15px;
+  z-index: 10000;
+  padding: 10px 16px;
+  background: var(--orange-soda);
+  color: var(--white);
+  border-radius: 999px;
+  font-family: var(--ff-poppins);
+  font-size: var(--fs-6);
+  transition: top var(--transition);
+}
+
+.skip-link:focus {
+  top: 15px;
 }
 
 /* Animation Keyframes */
@@ -283,6 +316,12 @@ body {
   justify-content: center;
   z-index: 9999;
   transition: opacity 0.5s ease;
+}
+
+.loader.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .loader::after {
@@ -473,10 +512,6 @@ img {
 }
 
 /* Ensure all text is visible */
-* {
-  color: inherit;
-}
-
 /* Service icons fallback */
 .service-card .card-icon img {
   width: 60px;
@@ -510,67 +545,6 @@ img {
   height: auto;
   border-radius: 8px;
 }
-
-/* Overlay positioning fix */
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: hsla(0, 0%, 0%, 0.5);
-  pointer-events: none;
-  opacity: 0;
-  visibility: hidden;
-  transition: var(--transition);
-  z-index: 4;
-}
-
-.overlay.active {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: all;
-}
-
-/* Header bottom styling fix */
-.header-bottom {
-  background: var(--white);
-  padding-block: 25px;
-  border-bottom: 1px solid hsla(0, 0%, 0%, 0.05);
-}
-
-/* Navigation buttons fix */
-.header-bottom-actions {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.header-bottom-actions-btn {
-  color: var(--black);
-  font-size: var(--fs-6);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-  padding: 8px;
-  transition: var(--transition);
-}
-
-.header-bottom-actions-btn:hover {
-  color: var(--orange-soda);
-}
-
-/* Ensure content is visible */
-.hero-content,
-.about-content,
-.service-list,
-.property-list,
-.features-list,
-.blog-list {
-  opacity: 1;
-  visibility: visible;
-}
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -578,6 +552,7 @@ img {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 
@@ -2250,90 +2225,7 @@ button, a { transition: var(--transition); }
 
   .footer-brand { max-width: 400px; }
 
-}
-
-/* ===== CRITICAL VISIBILITY FIXES ===== */
-
-/* Ensure ALL content is visible */
-* {
-  visibility: visible !important;
-}
-
-/* Fix main text colors that might be invisible */
-.hero-title,
-.section-title,
-.card-title,
-.blog-title,
-.h1, .h2, .h3 {
-  color: var(--dark-jungle-green) !important;
-  opacity: 1 !important;
-}
-
-.hero-text,
-.about-text,
-.card-text,
-.section-text,
-p {
-  color: var(--cadet) !important;
-  opacity: 1 !important;
-}
-
-/* Fix navigation visibility */
-.navbar-link,
-.header-top-link {
-  opacity: 1 !important;
-}
-
-/* Fix button visibility */
-.btn,
-.header-top-btn,
-.cta-btn {
-  background: var(--orange-soda) !important;
-  color: var(--white) !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-/* Fix image display */
-img {
-  opacity: 1 !important;
-  visibility: visible !important;
-  display: block !important;
-  max-width: 100% !important;
-}
-
-/* Fix section containers */
-.hero,
-.about,
-.service,
-.property,
-.features,
-.blog,
-.cta,
-.footer {
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-/* Fix card visibility */
-.service-card,
-.property-card,
-.features-card,
-.blog-card {
-  opacity: 1 !important;
-  visibility: visible !important;
-  background: var(--white) !important;
-}
-
-/* Hide loader initially */
-.loader {
-  opacity: 0 !important;
-  visibility: hidden !important;
-  pointer-events: none !important;
-}
-
   .footer { --fs-5: 1rem; }
 
   .footer-link-box { flex-basis: 700px; }
-
 }
