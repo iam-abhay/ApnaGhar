@@ -2,19 +2,19 @@
 
 ![ApnaGhar Project Banner](assets/images/social-preview.png)
 
-ApnaGhar is a responsive real estate marketplace front end built with pure HTML, CSS, and vanilla JavaScript. It is polished for GitHub Portfolio presentation, GitHub Pages deployment, recruiter review, and a production-quality Lighthouse pass while preserving the original UI and behavior.
+ApnaGhar is a polished responsive real estate marketplace front end built with HTML, CSS, and vanilla JavaScript. It is optimized for GitHub Pages hosting and designed as a professional portfolio demo with accessible navigation and social metadata.
 
 ## Live Demo
 
-Replace this placeholder with your published deployment URL.
-
 - GitHub Pages: https://iam-abhay.github.io/ApnaGhar/
-- Netlify: Replace with your Netlify deployment URL
-- Vercel: Replace with your Vercel deployment URL
+
+## Project Overview
+
+ApnaGhar is a polished single-page real estate landing page built with HTML, CSS, and vanilla JavaScript. It includes property highlights, services, contact information, accessibility support, and static hosting-ready metadata.
 
 ## Screenshots
 
-Add exported screenshots here when the final deployment is available.
+Add exported screenshots here once deployment is complete.
 
 ```text
 screenshots/
@@ -77,12 +77,23 @@ ApnaGhar/
         └── social-preview.png
 ```
 
-## Installation
+## Local Setup
 
-1. Clone the repository.
-2. Open the project folder in VS Code or your preferred editor.
-3. Launch `index.html` with a local server or open it directly in a browser.
-4. For production deployment, publish the repository root as a static site.
+1. Clone the repository:
+   ```bash
+git clone https://github.com/iam-abhay/ApnaGhar.git
+cd ApnaGhar
+```
+2. Open `index.html` directly in a browser, or use a local server for the best experience.
+3. To serve locally with Python:
+   ```bash
+python -m http.server 8000
+```
+4. Open `http://localhost:8000`.
+
+## Deployment
+
+This project is ready for GitHub Pages hosting from the repository root.
 
 ## Future Improvements
 
@@ -94,7 +105,7 @@ ApnaGhar/
 
 ## Author
 
-ApnaGhar
+- iam-abhay
 
 ## License
 
