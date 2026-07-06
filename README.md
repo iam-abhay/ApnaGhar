@@ -184,7 +184,7 @@ Future improvements include:
 **Abhay Kharat**
 
 - GitHub: https://github.com/iam-abhay
-- LinkedIn: *(Add your LinkedIn profile here)*
+- LinkedIn: https://www.linkedin.com/in/abhay-kharat
 
 ---
 
