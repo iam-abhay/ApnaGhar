@@ -82,11 +82,13 @@ ApnaGhar/
    ```bash
 git clone https://github.com/iam-abhay/ApnaGhar.git
 cd ApnaGhar
-```
+# ApnaGhar
+ApnaGhar is a responsive front-end for a real estate marketplace, built with plain HTML, CSS, and vanilla JavaScript. This repository is a production-ready static site intended for GitHub Pages hosting and portfolio presentation — it highlights responsive design, accessibility best practices, SEO/social metadata, and lightweight, dependency-free UI behavior.
+
+Purpose: provide a ready-to-deploy landing page that employers and recruiters can view, and a clean codebase you can customize or extend.
 2. Open `index.html` directly in a browser, or use a local server for the best experience.
 3. To serve locally with Python:
    ```bash
-python -m http.server 8000
 ```
 4. Open `http://localhost:8000`.
 
