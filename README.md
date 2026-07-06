@@ -1,6 +1,5 @@
 # ApnaGhar
 
-![ApnaGhar Project Banner](assets/images/social-preview.png)
 
 ApnaGhar is a polished responsive real estate marketplace front end built with HTML, CSS, and vanilla JavaScript. It is optimized for GitHub Pages hosting and designed as a professional portfolio demo with accessible navigation and social metadata.
 
